@@ -1,7 +1,10 @@
+/* Style for the whole page*/
 body {
-    background-color: rgb(253, 248, 238);
+    /*background-color: rgb(253, 248, 238);*/
+    background-image: linear-gradient(rgb(249, 249, 249), rgb(226, 185, 247));
 }
 
+/* Nav bar heading*/
 .heading {
     text-transform: uppercase;
     font-size:30px;
@@ -9,12 +12,11 @@ body {
     padding-top: 20px;
 }
 
-.menu {
-    float: left;
-    padding: 5px;
-    padding-top: 80px;
+.navbar{
+    transition: top 0.3s;
 }
 
+/* Profile image sizing */
 .profileimage {
     width: 40%;
     height: 40%;
@@ -23,6 +25,14 @@ body {
     border-radius: 5%;
 }
 
+.aboutimage1 {
+    width: 40%;
+    height: 40%;
+    float: right;
+    border-radius: 5%;
+}
+
+/* This is for the overlays in the education section */
 .overlay {
     position: absolute;
     width: 100%;
@@ -33,7 +43,7 @@ body {
     bottom:0;
     opacity: 0;
     transition: .5s ease;
-    background-color: #d3abe8;
+    background-color: rgb(67, 67, 67);
 }
 .column:hover .overlay {
     opacity: 1;
@@ -48,4 +58,48 @@ body {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
+}
+
+/* Box for the education section */
+.box {
+    padding-left: 50px;
+    padding-right: 50px;
+    float: left;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    background-color: whitesmoke;
+}
+
+.footer-item {
+    color: rgb(32, 31, 31);
+}
+
+/* Fade text headings */
+h1 {
+    max-width: 40ch;
+    text-align: center;
+    transform: scale(0.94);
+    animation: scale 3s forwards cubic-bezier(0.5,1,0.89,1);
+}
+@keyframes scale {
+    100% {
+        transform: scale(1);
+    }
+}
+span {
+    display: inline-block;
+    opacity: 0;
+    filter: blur(4px);
+}
+span:nth-child(1) {
+    animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+@keyframes fade-in {
+    100% {
+        opacity: 1;
+        filter: blur(0);
+    }
 }
