@@ -1,7 +1,9 @@
 /* Style for the whole page*/
 body {
-    /*background-color: rgb(253, 248, 238);*/
     background-image: linear-gradient(rgb(249, 249, 249), rgb(226, 185, 247));
+    /*background-image: linear-gradient(rgb(226, 185, 247), rgb(249, 249, 249));*/
+    position: relative;
+    z-index: 0;
 }
 
 /* Nav bar heading*/
@@ -14,6 +16,7 @@ body {
 
 .navbar{
     transition: top 0.3s;
+    background-color: rgba(245, 245, 227, 0.847);
 }
 
 /* Profile image sizing */
@@ -68,13 +71,30 @@ body {
 }
 
 /* Footer */
+#main {
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.2);
+}
 .footer {
+    height: 245px;
     padding: 20px;
-    background-color: whitesmoke;
+    background-color: rgba(245, 245, 227, 0.847);
+    position: relative;
+    z-index: -2;
 }
 
 .footer-item {
-    color: rgb(32, 31, 31);
+    color: rgb(52, 51, 51);
+}
+.content {
+    position: fixed;
+    z-index: -1;
+    margin-left: -480px;
+    width: 960px;
+    left: 50%;
+    bottom: 0;
+    padding-bottom: 60px;
 }
 
 /* Fade text headings */
@@ -102,4 +122,10 @@ span:nth-child(1) {
         opacity: 1;
         filter: blur(0);
     }
+}
+
+/* Banner image*/
+.wrapper {
+    width:100%;
+    background-position: center;
 }
