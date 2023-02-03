@@ -1,7 +1,7 @@
 /* Style for the whole page*/
 body {
-    background-image: linear-gradient(rgb(249, 249, 249), rgb(226, 185, 247));
-    /*background-image: linear-gradient(rgb(226, 185, 247), rgb(249, 249, 249));*/
+    /*background-image: linear-gradient(rgb(249, 249, 249), rgb(226, 185, 247));*/
+    background-image: linear-gradient(rgb(226, 185, 247), rgb(249, 249, 249));
     position: relative;
     z-index: 0;
 }
@@ -14,9 +14,16 @@ body {
     padding-top: 20px;
 }
 
+/* Nav bar */
 .navbar{
     transition: top 0.3s;
     background-color: rgba(245, 245, 227, 0.847);
+    box-shadow: rgba(0,0,0,0.2);
+}
+
+.navbar-item:hover {
+    color: black;
+    text-decoration: underline;
 }
 
 /* Profile image sizing */
@@ -39,20 +46,20 @@ body {
 .overlay {
     position: absolute;
     width: 100%;
-    height:100%;
+    height: 100%;
     top: 0;
     left: 0;
     right: 0;
-    bottom:0;
+    bottom: 0;
     opacity: 0;
     transition: .5s ease;
-    background-color: rgb(67, 67, 67);
+    background-color: rgb(245, 245, 227);
 }
 .column:hover .overlay {
     opacity: 1;
 }
 .text {
-    color: white;
+    color: black;
     font-size: 20px;
     position: absolute;
     top: 50%;
@@ -63,11 +70,12 @@ body {
     text-align: center;
 }
 
-/* Box for the education section */
+/* Box for the education and home section */
 .box {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding: 0px;
+    width: 50%;
     float: left;
+    box-shadow:rgb(52, 51, 51);
 }
 
 /* Footer */
@@ -80,13 +88,17 @@ body {
 }
 .footer {
     background-color: rgba(245, 245, 227, 0.847);
-    height: 160px;
+    height: 200px;
     position: relative;
     z-index: -2;
 }
 
 .footer-item {
     color: rgb(52, 51, 51);
+}
+
+.footer-item:hover {
+    text-decoration: underline;
 }
 
 .content {
@@ -97,10 +109,12 @@ body {
     margin-left: -480px;
     z-index: -1;
     padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 /* Fade text headings */
 h1 {
+    padding-bottom: 60px;
     max-width: 40ch;
     text-align: center;
     transform: scale(0.94);

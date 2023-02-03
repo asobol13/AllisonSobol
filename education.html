@@ -8,93 +8,96 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-
-        <nav class="navbar has-shadow">
-            <!-- logo -->
-            <div class="navbar-brand">
-                <a href="index.html" class="navbar-item">
-                    <img src="images/logo.png" alt="site logo" style="max-height: 70px" class="py-2 px-3">
-                </a>
-                <a class="navbar-burger" id="burger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </a>
-            </div>
-
-            <div class="heading">
-                <h4>Allison Sobol</h4>
-            </div>
-
-            <div class="navbar-menu" id="nav-links">
-                <div class="navbar-end">
-                    <a href="education.html" class="navbar-item">Education</a>
-                    <a href="projects.html" class="navbar-item">Projects</a>
-                    <a href="about.html" class="navbar-item">About Me</a>
+        <div id="main">
+            <nav class="navbar">
+                <!-- logo -->
+                <div class="navbar-brand">
+                    <a href="index.html" class="navbar-item">
+                        <img src="images/logo.png" alt="site logo" style="max-height: 70px" class="py-2 px-3">
+                    </a>
+                    <a class="navbar-burger" id="burger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </a>
                 </div>
-            </div>
-        </nav>
 
-        <!-- Adding a title section -->
-        <section class="section">
-            <div class="container">
-                <h1 class="is-size-3-mobile is-size-2-desktop is-uppercase has-text-left is-underlined py-3"><span>Certifications</span></h1>
-            </div>
-            <div class="box has-text-centered">
-                <p>I currently have 4 certificates from the Nucamap Coding Bootcamp for their Back-end Development Course</p>
-            </div>
-        </section>
+                <div class="heading">
+                    <h4>Allison Sobol</h4>
+                </div>
 
-        <!-- Adding Certifications -->
-        <section class="section">
-            <div class="container">
-                <div class="columns is-vcentered is-multiline">
-                    <div class="column is-6-tablet is-3-desktop has-text-centered">
-                        <div class="image">
-                            <img src="images/DataStructures&Algorithms.png" alt="Data Structures Certificate image" class="px-3">
-                            <div class="overlay">
-                                <div class="text">I learned about data structures & algorithms, 
-                                    object-oriented programming, and big O notation in python. This gave me a solid
-                                    foundation moving forward.
+                <div class="navbar-menu is-active" id="nav-links">
+                    <div class="navbar-end">
+                        <a href="education.html" class="navbar-item">Education</a>
+                        <a href="projects.html" class="navbar-item">Projects</a>
+                        <a href="about.html" class="navbar-item">About Me</a>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Adding a title section -->
+            <section class="section">
+                <div class="container py-6">
+                    <h1 class="is-size-3-mobile is-size-2-desktop is-uppercase has-text-left is-underlined py-3"><span>Certifications</span></h1>
+                </div>
+                <div class="box is-size-5 py-4 px-4 has-text-centered">
+                    <p>I currently have 4 certificates from the Nucamap Coding Bootcamp for their Backend Development Course that I
+                        completed in January of this year.
+                    </p>
+                </div>
+            </section>
+
+            <!-- Adding Certifications -->
+            <section class="section">
+                <div class="container py-6">
+                    <div class="columns is-vcentered is-multiline">
+                        <div class="column is-6-tablet is-3-desktop has-text-centered">
+                            <div class="image">
+                                <img src="images/DataStructures&Algorithms.png" alt="Data Structures Certificate image" class="px-3">
+                                <div class="overlay">
+                                    <div class="text">I learned about data structures & algorithms, 
+                                        object-oriented programming, and big O notation in python. This gave me a solid
+                                        foundation moving forward.
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="column is-6-tablet is-3-desktop has-text-centered">
-                        <div class="image">
-                            <img src="images/SQL.png" alt="SQL Certificate image" class="px-3">
-                            <div class="overlay">
-                                <div class="text">I learned about database technologies (specifically SQL),
-                                    about database migrations, optimization, and visualization. I also developed
-                                    with the flask framework.
-                                </div>
-                            </div>                             
+                        <div class="column is-6-tablet is-3-desktop has-text-centered">
+                            <div class="image">
+                                <img src="images/SQL.png" alt="SQL Certificate image" class="px-3">
+                                <div class="overlay">
+                                    <div class="text">I learned about database technologies (specifically SQL),
+                                        about database migrations, optimization, and visualization. I also developed
+                                        with the flask framework.
+                                    </div>
+                                </div>                             
+                            </div>
                         </div>
-                    </div>
-                    <div class="column is-6-tablet is-3-desktop has-text-centered">
-                        <div class="image">
-                            <img src="images/DevOps.png" alt="DevOps Certificate image" class="px-3">
-                            <div class="overlay">
-                                <div class="text">I learned about software development, docker, cloud computing (AWS, Google
-                                     Cloud, Azure), Kubernetes, testing, and developed with the Django framework.
-                                </div>
-                            </div> 
+                        <div class="column is-6-tablet is-3-desktop has-text-centered">
+                            <div class="image">
+                                <img src="images/DevOps.png" alt="DevOps Certificate image" class="px-3">
+                                <div class="overlay">
+                                    <div class="text">I learned about software development, docker, cloud computing (AWS, Google
+                                        Cloud, Azure), Kubernetes, testing, and developed with the Django framework.
+                                    </div>
+                                </div> 
+                            </div>
                         </div>
-                    </div>
-                    <div class="column is-6-tablet is-3-desktop has-text-centered">
-                        <div class="image">
-                            <img src="images/HonorsGraduate.png" alt="Honors Graduation Certificate image" class="px-3">
-                            <div class="overlay">
-                                <div class="text">I submitted a backend flask application project for the honors certificate.
-                                    This project is a program for a aviation Charter business to keep all of their information
-                                    in one place.
-                                </div>
-                            </div> 
+                        <div class="column is-6-tablet is-3-desktop has-text-centered">
+                            <div class="image">
+                                <img src="images/HonorsGraduate.png" alt="Honors Graduation Certificate image" class="px-3">
+                                <div class="overlay">
+                                    <div class="text">I submitted a backend flask application project for the honors certificate.
+                                        This project is a program for a aviation Charter business to keep all of their information
+                                        in one place.
+                                    </div>
+                                </div> 
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </div>
 
         <!-- Footer for Contact Links-->
         <footer class="footer">
