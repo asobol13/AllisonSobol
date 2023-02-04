@@ -26,8 +26,8 @@ body {
     text-decoration: underline;
 }
 
-/* Profile image sizing */
-.profileimage {
+/* Photo image sizing */
+.gradimage {
     width: 40%;
     height: 40%;
     display: block;
@@ -35,10 +35,19 @@ body {
     border-radius: 5%;
 }
 
-.aboutimage1 {
+.grizphoto {
+    width: 15%;
+    height: 15%;
+    display: block;
+    margin-left: auto;
+    border-radius: 5%;
+}
+
+.golfphoto {
     width: 40%;
     height: 40%;
-    float: right;
+    display: block;
+    margin-left: auto;
     border-radius: 5%;
 }
 
