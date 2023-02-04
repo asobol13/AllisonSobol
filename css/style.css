@@ -113,7 +113,7 @@ body {
 }
 
 /* Fade text headings */
-h1 {
+.h1 {
     padding-bottom: 60px;
     max-width: 40ch;
     text-align: center;
@@ -146,4 +146,9 @@ span:nth-child(1) {
     background-position: center;
 }
 
-/* Projects video & site */
+/* Box centering */
+.box {
+    align-items: center;
+    margin: auto;
+    width: 100%;
+}
