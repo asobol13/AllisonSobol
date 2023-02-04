@@ -31,7 +31,8 @@ body {
     width: 40%;
     height: 40%;
     display: block;
-    margin-left: auto;
+    margin-left: 60%;
+    margin-right: auto;
     border-radius: 5%;
 }
 
@@ -39,7 +40,8 @@ body {
     width: 10%;
     height: 10%;
     display: block;
-    margin-left: auto;
+    margin-left: 80%;
+    margin-right: auto;
     border-radius: 5%;
 }
 
@@ -49,6 +51,7 @@ body {
     display: block;
     margin-left: auto;
     border-radius: 5%;
+    margin-right: 80%;
 }
 
 /* This is for the overlays in the education section */
@@ -162,13 +165,33 @@ span:nth-child(1) {
     width: 100%;
 }
 
+/* About page paragraph spacing */
 .aboutcontent {
     text-align: center;
     padding: 0.5em;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .p1 {
-    margin-left: 5vw;
-    margin-right: 5vw;
+    float: left;
+    width: 50%;
+    margin-left: 70%;
+    margin-right: 70%;
     padding-bottom: 35px;
+    display: block;
+}
+
+.p2 {
+    float: right;
+    width: 50%;
+    padding-bottom: 35px;
+    display: block;
+}
+
+.p3 {
+    float: left;
+    width: 50%;
+    padding-bottom: 35px;
+    display: block;
 }
