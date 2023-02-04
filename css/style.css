@@ -36,8 +36,8 @@ body {
 }
 
 .grizphoto {
-    width: 15%;
-    height: 15%;
+    width: 10%;
+    height: 10%;
     display: block;
     margin-left: auto;
     border-radius: 5%;
@@ -162,3 +162,13 @@ span:nth-child(1) {
     width: 100%;
 }
 
+.aboutcontent {
+    text-align: center;
+    padding: 0.5em;
+}
+
+.p1 {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    padding-bottom: 35px;
+}
