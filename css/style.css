@@ -1,6 +1,5 @@
 /* Style for the whole page*/
 body {
-    /*background-image: linear-gradient(rgb(249, 249, 249), rgb(226, 185, 247));*/
     background-image: linear-gradient(rgb(226, 185, 247), rgb(249, 249, 249));
     position: relative;
     z-index: 0;
