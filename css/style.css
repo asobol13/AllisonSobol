@@ -187,6 +187,8 @@ span:nth-child(1) {
     width: 50%;
     padding-bottom: 35px;
     display: block;
+    margin-left: 70%;
+    margin-right: 70%;
 }
 
 .p3 {
@@ -194,4 +196,6 @@ span:nth-child(1) {
     width: 50%;
     padding-bottom: 35px;
     display: block;
+    margin-left: 70%;
+    margin-right: 70%;
 }
