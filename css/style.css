@@ -54,7 +54,7 @@ body {
 
 .homephoto {
     width: 90%;
-    height: 80%;
+    height: 90%;
     display: block;
     margin-left: 10%;
     margin-right: auto;
@@ -180,29 +180,9 @@ span:nth-child(1) {
     margin-right: 10%;
 }
 
-.p1 {
-    float: left;
-    width: 50%;
-    margin-left: 70%;
-    margin-right: 70%;
-    padding-bottom: 35px;
-    display: block;
+/* Line separation */
+hr {
+    height: 2px;
+    border-width: 0;
+    background-color: black;
 }
-
-/* .p2 {
-    float: right;
-    width: 50%;
-    padding-bottom: 35px;
-    display: block;
-    margin-left: 70%;
-    margin-right: 70%;
-} */
-
-/* .p3 {
-    float: left;
-    width: 50%;
-    padding-bottom: 35px;
-    display: block;
-    margin-left: 70%;
-    margin-right: 70%;
-} */
