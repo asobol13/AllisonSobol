@@ -27,30 +27,38 @@ body {
 
 /* Photo image sizing */
 .gradimage {
-    width: 40%;
-    height: 40%;
+    width: 90%;
+    height: 80%;
     display: block;
-    margin-left: 60%;
+    margin-left: 10%;
     margin-right: auto;
     border-radius: 5%;
 }
 
-.grizphoto {
-    width: 10%;
-    height: 10%;
-    display: block;
-    margin-left: 80%;
+.planephoto {
+    width: 90%;
+    height: 90%;
+    margin-left: 10%;
     margin-right: auto;
     border-radius: 5%;
 }
 
 .golfphoto {
-    width: 40%;
-    height: 40%;
+    width: 80%;
+    height: 80%;
     display: block;
     margin-left: auto;
     border-radius: 5%;
     margin-right: 80%;
+}
+
+.homephoto {
+    width: 90%;
+    height: 80%;
+    display: block;
+    margin-left: 10%;
+    margin-right: auto;
+    border-radius: 5%;
 }
 
 /* This is for the overlays in the education section */
@@ -181,20 +189,20 @@ span:nth-child(1) {
     display: block;
 }
 
-.p2 {
+/* .p2 {
     float: right;
     width: 50%;
     padding-bottom: 35px;
     display: block;
     margin-left: 70%;
     margin-right: 70%;
-}
+} */
 
-.p3 {
+/* .p3 {
     float: left;
     width: 50%;
     padding-bottom: 35px;
     display: block;
     margin-left: 70%;
     margin-right: 70%;
-}
+} */
