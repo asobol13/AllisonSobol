@@ -18,6 +18,7 @@ body {
     transition: top 0.3s;
     background-color: rgba(245, 245, 227, 0.847);
     box-shadow: rgba(0,0,0,0.2);
+    box-shadow: 0 2px 4px 0 rgb(0,0,0,0.2);
 }
 
 .navbar-item:hover {
@@ -183,6 +184,8 @@ span:nth-child(1) {
 /* Line separation */
 hr {
     height: 2px;
+    width: 50%;
+    margin:auto;
     border-width: 0;
     background-color: black;
 }
