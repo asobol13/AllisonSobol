@@ -104,10 +104,11 @@ body {
         opacity: 0;
         transition: .5s ease;
         background-color: rgb(245, 245, 227);
-        pointer-events: auto;
+        pointer-events: none;
+        overflow:visible;
     }
     
-    .column:hover .overlay {
+    .column:active .overlay {
         opacity: 1;
     }
     
