@@ -75,9 +75,11 @@ body {
     transition: .5s ease;
     background-color: rgb(245, 245, 227);
 }
+
 .column:hover .overlay {
     opacity: 1;
 }
+
 .text {
     color: black;
     font-size: 20px;
