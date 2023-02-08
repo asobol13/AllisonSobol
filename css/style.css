@@ -104,7 +104,7 @@ body {
         opacity: 0;
         transition: .5s ease;
         background-color: rgb(245, 245, 227);
-        pointer-events: none;
+        pointer-events: auto;
         overflow:visible;
     }
     
