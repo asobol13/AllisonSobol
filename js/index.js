@@ -7,6 +7,9 @@ burgerIcon.addEventListener('click', () => {
 });
 
 // overlay
-function myFunction() {
-    document.getElementById("cert1").value = document.getElementById("overlay").value;
+function showOverlay() {
+    document.getElementById("overlay").style.display = "block";
 }
+    function hideOverlay() {
+        document.getElementById("overlay").style.display = "none";
+    }
