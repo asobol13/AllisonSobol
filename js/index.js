@@ -8,7 +8,7 @@ burgerIcon.addEventListener('click', () => {
 
 // overlay
 function showOverlay() {
-    document.getElementById("overlay").style.display = "block";
+    document.getElementById("overlay");
 }
     function hideOverlay() {
         document.getElementById("overlay").style.display = "none";
