@@ -54,12 +54,12 @@ body {
 }
 
 .golfphoto {
-    width: 80%;
-    height: 80%;
+    width: 90%;
+    height: 90%;
     display: block;
     margin-left: auto;
     border-radius: 5%;
-    margin-right: 80%;
+    margin-right: auto;
 }
 
 .homephoto {
