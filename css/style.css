@@ -37,25 +37,25 @@ body {
 
 /* Photo image sizing */
 .gradimage {
-    width: 90%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
     display: block;
-    margin-left: 10%;
+    margin-left: auto;
     margin-right: auto;
     border-radius: 5%;
 }
 
 .planephoto {
-    width: 90%;
-    height: 90%;
-    margin-left: 10%;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
     margin-right: auto;
     border-radius: 5%;
 }
 
 .golfphoto {
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
     display: block;
     margin-left: auto;
     border-radius: 5%;
@@ -92,7 +92,7 @@ body {
 .text {
     color: black;
     font-size: 20px;
-    position: relative;
+    position: absolute;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
