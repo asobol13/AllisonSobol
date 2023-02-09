@@ -105,7 +105,6 @@ body {
 .box {
     padding: 0px;
     width: 50%;
-    float: left;
     box-shadow:rgb(52, 51, 51);
 }
 
