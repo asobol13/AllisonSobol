@@ -26,6 +26,7 @@ body {
     text-decoration: underline;
 }
 
+/* Hamburger Menu */
 .bar1, .bar2, .bar3 {
     width: 25px;
     height: 2px;
@@ -230,6 +231,7 @@ hr {
     text-align: center;
 }
 
+/* Changing About Page Layout for Mobile */
 @media only screen and (max-device-width: 768px) {
     #aboutcontainerswap {
         display:flex;
