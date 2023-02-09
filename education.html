@@ -50,7 +50,7 @@
             <!-- Adding Certifications -->
             <section class="section">
                 <div class="container py-6">
-                    <div class="columns is-vcentered is-multiline py-3">
+                    <div class="columns is-vcentered is-multiline py-6">
                         <div class="column is-6-tablet is-3-desktop has-text-centered">
                             <div class="image">
                                 <img onclick="showOverlay()" src="images/DataStructures&Algorithms.png" alt="Data Structures Certificate image" class="px-3">
@@ -64,8 +64,8 @@
                         </div>
                         <div class="column is-6-tablet is-3-desktop has-text-centered">
                             <div class="image">
-                                <img src="images/SQL.png" alt="SQL Certificate image" class="px-3">
-                                <div class="overlay">
+                                <img onclick="showOverlay()" src="images/SQL.png" alt="SQL Certificate image" class="px-3">
+                                <div class="overlay" id="overlay" onclick="hideOverlay()">
                                     <div class="text">I learned about database technologies (specifically SQL),
                                         about database migrations, optimization, and visualization. I also developed
                                         with the flask framework.
@@ -75,8 +75,8 @@
                         </div>
                         <div class="column is-6-tablet is-3-desktop has-text-centered">
                             <div class="image">
-                                <img src="images/DevOps.png" alt="DevOps Certificate image" class="px-3">
-                                <div class="overlay">
+                                <img onclick="showOverlay()" src="images/DevOps.png" alt="DevOps Certificate image" class="px-3">
+                                <div class="overlay" id="overlay" onclick="hideOverlay()">
                                     <div class="text">I learned about software development, docker, cloud computing (AWS, Google
                                         Cloud, Azure), Kubernetes, testing, and developed with the Django framework.
                                     </div>
@@ -85,8 +85,8 @@
                         </div>
                         <div class="column is-6-tablet is-3-desktop has-text-centered">
                             <div class="image">
-                                <img src="images/HonorsGraduate.png" alt="Honors Graduation Certificate image" class="px-3">
-                                <div class="overlay">
+                                <img onclick="showOverlay()" src="images/HonorsGraduate.png" alt="Honors Graduation Certificate image" class="px-3">
+                                <div class="overlay" id="overlay" onclick="hideOverlay()">
                                     <div class="text">I submitted a backend flask application project for the honors certificate.
                                         This project is a program for a aviation Charter business to keep all of their information
                                         in one place.
