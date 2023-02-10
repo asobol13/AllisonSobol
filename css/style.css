@@ -238,3 +238,9 @@ hr {
         flex-flow: column-reverse;
     }
 }
+
+@media (min-width: 769px) {
+    #p2 {
+        text-align: right;
+    }
+}
