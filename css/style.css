@@ -100,7 +100,7 @@ body {
     text-align: center;
 }
 
-@media only screen and (max-device-width: 1407px) {
+@media (max-width: 1408px) {
     .text {
         color: black;
         font-size: 15px;
@@ -239,6 +239,7 @@ hr {
     }
 }
 
+/* Changing text-alignment for desktop */
 @media (min-width: 769px) {
     #p2 {
         text-align: right;
