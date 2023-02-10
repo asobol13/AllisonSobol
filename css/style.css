@@ -232,7 +232,7 @@ hr {
 }
 
 /* Changing About Page Layout for Mobile */
-@media only screen and (max-device-width: 320px) {
+@media only screen and (max-device-width: 768px) {
     #aboutcontainerswap {
         display:flex;
         flex-flow: column-reverse;
