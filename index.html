@@ -5,9 +5,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta description="Home page for my personal website">
         <title>Allison's Website--Home</title>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-        <link rel="stylesheet" href="css/style.css">
-
+        <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+        <link rel="stylesheet" href="css/style.css"> -->
+        <script>
+            function loadCSS(url) {
+                var link = document.createElement("link");
+                link.rel = "stylesheet";
+                link.href = url;
+                document.head.appendChild(link);
+            }
+            loadCSS("https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css");
+            loadCSS("css/style.css");
+        </script>
     </head>
     <body>
         <div id="main">
@@ -96,7 +105,7 @@
                     <div class="grid-item py-3"><img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_640.png" alt="html logo" width="45%" height="45%"></div>
                     <div class="grid-item py-3"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png" alt="css logo" width="30%" height="30%"></div>
                     <div class="grid-item py-3"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Flask_logo.svg/1280px-Flask_logo.svg.png" alt="flask logo" width="70%" height="70%"></div>
-                    <div class="grid-item py-3"><img src="https://www.djangoproject.com/m/img/logos/django-logo-negative.png" alt="django logo" width="60%" height="60%"></div>
+                    <div class="grid-item py-3"><img src="https://static.djangoproject.com/img/logos/django-logo-negative.png" alt="django logo" width="60%" height="60%"></div>
                     <div class="grid-item py-3"><img src="https://1000logos.net/wp-content/uploads/2020/08/PostgreSQL-Logo.png" alt="SQL logo" width="100%" height="100%"></div>
                     <div class="grid-item py-3"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Google_Cloud_logo.svg/2560px-Google_Cloud_logo.svg.png" alt="Google Cloud logo" width="100%" height="100%"></div>
                     <div class="grid-item py-3"><img src="https://futurumresearch.com/wp-content/uploads/2020/01/aws-logo.png" alt="AWS logo" width="70%" height="70%"></div>

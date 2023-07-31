@@ -5,8 +5,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta description="Education page for my personal website">
         <title>Allison's Website--Certifications</title>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-        <link rel="stylesheet" href="css/style.css">
+        <script>
+            function loadCSS(url) {
+                var link = document.createElement("link");
+                link.rel = "stylesheet";
+                link.href = url;
+                document.head.appendChild(link);
+            }
+            loadCSS("https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css");
+            loadCSS("css/style.css");
+        </script>
     </head>
     <body>
         <div id="main">
