@@ -181,7 +181,7 @@ span:nth-child(1) {
     100% {
         opacity: 1;
         filter: blur(0);
-        color: #B6D4F1;
+        color: #97C898;
     }
 }
 
@@ -191,11 +191,18 @@ span:nth-child(1) {
     background-position: center;
 }
 
+/* Heading 2 */
+h2{
+    color: #97C898;
+}
+
 /* Box centering */
 .box {
     align-items: center;
     margin: auto;
     width: 100%;
+    background-color: #000000;
+    color: #B6D4F1;
 }
 
 /* About page paragraph spacing */
@@ -204,6 +211,11 @@ span:nth-child(1) {
     padding: 0.5em;
     margin-left: 10%;
     margin-right: 10%;
+}
+
+/* About paragrapgh colors*/
+#p1, #p2, #p3{
+    color: #F1D3F1;
 }
 
 /* Line separation */
@@ -223,10 +235,11 @@ hr {
     padding: 10px;
     margin-left: 10%;
     margin-right: 10%;
+    background-color: #F1D3F1;
 }
 
 .grid-item {
-    background-color: whitesmoke;
+    background-color: #B6D4F1;
     border: 1px;
     padding: 10px;
     font-size: 50px;
