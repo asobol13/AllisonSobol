@@ -13,15 +13,3 @@ function showOverlay() {
     function hideOverlay() {
         document.getElementById("overlay").style.display = "none";
     }
-
-// Scroll Reveal for about page
-const sr = ScrollReveal();
-
-sr.reveal('.element-item', {
-  origin: 'bottom',
-  distance: '20px',
-  duration: 1000,
-  delay: 0,
-  opacity: 0,
-  scale: 1,
-});
