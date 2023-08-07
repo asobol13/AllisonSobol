@@ -13,3 +13,44 @@ function showOverlay() {
     function hideOverlay() {
         document.getElementById("overlay").style.display = "none";
     }
+
+// Carousel deal
+$(document).ready(function() {
+    var $carousel = $(".carousel");
+
+    $carousel.slick({
+      slidesToShow: 1,
+      slidesToScroll: 3,
+      centerMode: true,
+      centerPadding: "0",
+      focusOnSelect: true,
+      prevArrow: $(".slick-prev"),
+      nextArrow: $(".slick-next"),
+      responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1,
+            centerMode: true,
+            centerPadding: "40px",
+          }
+        }
+      ]
+    });
+
+    // Custom navigation functions
+    $(".slick-prev").click(function() {
+      $carousel.slick("slickPrev");
+    });
+
+    $(".slick-next").click(function() {
+      $carousel.slick("slickNext");
+      console.log("Next button clicked");
+    });
+});
+  
+  
+  
+  
+  
+  

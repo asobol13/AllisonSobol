@@ -264,3 +264,36 @@ hr {
         text-align: right;
     }
 }
+
+/* Project Carousel */
+.carousel-container {
+    width: 100%; /* Adjust as needed */
+    overflow: hidden;
+  }
+  
+  .carousel {
+    display: flex;
+    transition: transform 0.5s; /* Add a smooth transition effect */
+  }
+  
+  .carousel-item {
+    flex: 0 0 100%; /* Each item takes full width */
+  }
+  
+  /* Center the carousel items vertically if needed */
+  .carousel-item img,
+  .carousel-item video {
+    width: 100%;
+    height: 315;
+    margin: auto;
+    display: block;
+  }
+  
+
+.slick-prev{
+    float: left;
+}
+
+.slick-next{
+    float: right;
+}
