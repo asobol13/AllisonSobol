@@ -48,9 +48,18 @@ $(document).ready(function() {
       console.log("Next button clicked");
     });
 });
-  
-  
-  
-  
-  
-  
+
+// scroll activated
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('active'); // Add active class for effect
+      observer.unobserve(entry.target);
+    }
+  });
+});
+
+const fadeIns = document.querySelectorAll('.fade-in');
+    fadeIns.forEach(fadeIn => {
+      observer.observe(fadeIn);
+    });
