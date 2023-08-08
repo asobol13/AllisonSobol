@@ -49,17 +49,13 @@ $(document).ready(function() {
     });
 });
 
-// scroll activated
-const observer = new IntersectionObserver(entries => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('active'); // Add active class for effect
-      observer.unobserve(entry.target);
-    }
-  });
-});
+// Overlay for about me page
+window.addEventListener('scroll', function() {
+  const overlay2 = document.querySelector('.overlay2');
+  const distanceFromTop = overlay2.getBoundingClientRect().top;
 
-const fadeIns = document.querySelectorAll('.fade-in');
-    fadeIns.forEach(fadeIn => {
-      observer.observe(fadeIn);
-    });
+  if (distanceFromTop < window.innerHeight) {
+    const opacity = 1 - (distanceFromTop / window.innerHeight);
+    overlay2.style.opacity = opacity;
+  }
+});

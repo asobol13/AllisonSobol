@@ -18,8 +18,6 @@ body {
 .navbar{
     transition: top 0.3s;
     background: #000000;
-    /* box-shadow: rgba(0,0,0,0.2);
-    box-shadow: 0 2px 4px 0 rgb(0,0,0,0.2); */
 }
 
 .navbar-item {
@@ -132,7 +130,6 @@ body {
     z-index: 1;
     box-shadow: 0 3px 3px rgba(0,0,0,0.2);
     background-color: black;
-    /* background-image: linear-gradient(rgb(249, 249, 249), rgb(226, 185, 247)); */
 }
 .footer {
     background-color: #CFAAE6;
@@ -196,7 +193,7 @@ span:nth-child(1) {
 }
 
 /* Heading 2 */
-h2{
+h2 {
     color: #97C898;
 }
 
@@ -219,6 +216,11 @@ h2{
 
 /* About paragrapgh colors*/
 #p1, #p2, #p3{
+    color: #F1D3F1;
+}
+
+/* Heading 5 for projects page page */
+h5 {
     color: #F1D3F1;
 }
 
@@ -263,47 +265,4 @@ hr {
     #p2 {
         text-align: right;
     }
-}
-
-/* Project Carousel */
-.carousel-container {
-    width: 100%; /* Adjust as needed */
-    overflow: hidden;
-  }
-  
-  .carousel {
-    display: flex;
-    transition: transform 0.5s; /* Add a smooth transition effect */
-  }
-  
-  .carousel-item {
-    flex: 0 0 100%; /* Each item takes full width */
-  }
-  
-  /* Center the carousel items vertically if needed */
-  .carousel-item img,
-  .carousel-item video {
-    width: 100%;
-    height: 315;
-    margin: auto;
-    display: block;
-  }
-  
-
-.slick-prev{
-    float: left;
-}
-
-.slick-next{
-    float: right;
-}
-
-// 
-.fade-in {
-    opacity: 0;
-    transition: opacity 0.5s ease-in-out;
-}
-
-.fade-in.active {
-    opacity: 1;
 }
