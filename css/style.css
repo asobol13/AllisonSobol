@@ -3,6 +3,8 @@ body {
     background-color: black;
     position: relative;
     z-index: 0;
+    font-family: 'Merriweather', serif;
+    font-family: 'Roboto Mono', monospace;
 }
 
 /* Nav bar heading*/
@@ -133,7 +135,7 @@ body {
 }
 .footer {
     background-color: #CFAAE6;
-    height: 200px;
+    height: 50px;
     position: relative;
     z-index: -2;
 }
