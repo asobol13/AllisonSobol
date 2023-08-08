@@ -250,7 +250,7 @@ hr {
     background-color: #000000;
     border: 1px;
     padding: 10px;
-    font-size: 50px;
+    /* font-size: 50px; */
     text-align: center;
 }
 
