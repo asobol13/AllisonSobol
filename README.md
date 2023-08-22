@@ -1,6 +1,6 @@
 # My Website
 ***
-This is my personal website
+This is a new updated version of my personal website. I mainly just changed the color themes but I also did some optimization work.
 
 ***
 ### Technologies
